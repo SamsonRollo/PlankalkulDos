@@ -1,0 +1,22 @@
+package lib;
+
+public enum TokenType {
+    TOKEN_BLOCK_ID,
+    TOKEN_DATA_TYPE,
+    TOKEN_RETURN,
+    TOKEN_NAME,
+    TOKEN_LPAREN,
+    TOKEN_RPAREN,
+    TOKEN_COLON,
+    TOKEN_LBRACE,
+    TOKEN_RBRACE,
+    TOKEN_COMMA,
+    TOKEN_SEMI_COLON,
+    TOKEN_LBRACK,
+    TOKEN_RBRACK,
+    TOKEN_EQUALS, //not yet used in main
+    TOKEN_INTEGER,
+    TOKEN_FLOAT,
+    TOKEN_BOOLEAN,
+    TOKEN_STRING
+}
