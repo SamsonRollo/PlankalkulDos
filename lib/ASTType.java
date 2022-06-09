@@ -2,7 +2,8 @@ package lib;
 
 public enum ASTType {
     COMPOUND,
-    DEFINITION,
+    ASSIGNMENT,
+    FUNCTION,
     VARIABLE,
     STATEMENT,
     NOOP,

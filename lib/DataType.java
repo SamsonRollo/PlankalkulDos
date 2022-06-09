@@ -9,4 +9,5 @@ public enum DataType {
     Array,
     List,
     Void,
+    FUN
 }

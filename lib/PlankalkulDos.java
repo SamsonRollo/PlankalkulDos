@@ -13,7 +13,7 @@ public class PlankalkulDos {
         AST astRoot = parser.parse();
 
         Token token = null;
-
+        System.out.println(astRoot);
         do{
             token = lexer.getNextToken();
             if(token != null)
